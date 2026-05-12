@@ -5,10 +5,6 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
-{% include widgets/debug_repo_name.html %}
-
-{% include widgets/debug_url.html %}
-
 {% if site.data.display.homepage.show_experience %}
     {% include widgets/experience_card.html %}
 {% endif %}
@@ -30,19 +26,34 @@ navbar_title: Home
 {% endif %}
 
 <div class="my-4 p-3 p-md-4 bg-white shadow-sm rounded-xl">
+    <h4 class="mt-0 mb-3"><i class="fas fa-microscope"></i> Research Highlights</h4>
+    <div class="row">
+        <div class="col-12 col-md-4 mb-3">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/univtac_framework.webp' | relative_url }}" alt="UniVTAC framework">
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/spark_hand_main.webp' | relative_url }}" alt="SPARK Hand">
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/tactile_umi_setup.webp' | relative_url }}" alt="Tactile UMI setup">
+        </div>
+    </div>
+</div>
+
+<div class="my-4 p-3 p-md-4 bg-white shadow-sm rounded-xl">
     <h4 class="mt-0 mb-3"><i class="fas fa-images"></i> Self-Introduction Highlights</h4>
     <div class="row">
         <div class="col-12 col-md-6 mb-3">
-            <img class="img-fluid rounded-sm shadow-sm" src="{{ '/assets/images/self_intro/image1.png' | relative_url }}" alt="Self introduction slide media 1">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/self_intro_opt/image1.webp' | relative_url }}" alt="Self introduction slide media 1">
         </div>
         <div class="col-12 col-md-6 mb-3">
-            <img class="img-fluid rounded-sm shadow-sm" src="{{ '/assets/images/self_intro/image10.png' | relative_url }}" alt="Self introduction slide media 10">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/self_intro_opt/image10.webp' | relative_url }}" alt="Self introduction slide media 10">
         </div>
         <div class="col-12 col-md-6 mb-3">
-            <img class="img-fluid rounded-sm shadow-sm" src="{{ '/assets/images/self_intro/image12.png' | relative_url }}" alt="Self introduction slide media 12">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/self_intro_opt/image12.webp' | relative_url }}" alt="Self introduction slide media 12">
         </div>
         <div class="col-12 col-md-6 mb-3">
-            <img class="img-fluid rounded-sm shadow-sm" src="{{ '/assets/images/self_intro/image19.png' | relative_url }}" alt="Self introduction slide media 19">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/self_intro_opt/image19.webp' | relative_url }}" alt="Self introduction slide media 19">
         </div>
     </div>
 </div>
@@ -52,7 +63,7 @@ navbar_title: Home
     <p class="text-muted">Scan the QR code to open the certificates page on your phone.</p>
     <div class="row align-items-center">
         <div class="col-12 col-md-4 mb-3 mb-md-0">
-            <img class="img-fluid rounded-sm border" src="{{ '/assets/images/etc/certificates_qr.png' | relative_url }}" alt="QR code for certificates page">
+            <img class="img-fluid rounded-sm border" loading="lazy" decoding="async" src="{{ '/assets/images/etc/certificates_qr.png' | relative_url }}" alt="QR code for certificates page">
         </div>
         <div class="col-12 col-md-8">
             <a class="btn btn-primary" href="{{ '/certificates' | relative_url }}">Open Certificates Page</a>
