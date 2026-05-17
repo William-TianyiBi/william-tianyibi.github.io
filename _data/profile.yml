@@ -26,19 +26,6 @@ short_bio: >-
     I aim to build robust embodied systems where principled mechanics and data-driven control reinforce each other.
   </p>
 
-personal_statement: >-
-  <p>
-    I believe the future of intelligent robotics lies at the intersection of physical structure and adaptive intelligence.
-    Strong performance in real-world manipulation is not achieved by algorithms alone, but by the co-design of mechanism,
-    sensing, and control.
-  </p>
-  <p>
-    Through SPARK Hand, UniVTAC, and Tactile-UMI, I have developed a research style that starts from task constraints,
-    translates them into measurable design principles, and validates them in both simulation and prototype systems. This
-    process has shaped my long-term goal: to contribute to embodied intelligence for dexterous and reliable manipulation
-    in unstructured environments and translate that research into practical robotic capability.
-  </p>
-
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Tianyi Bi, Shenzhen, China.
