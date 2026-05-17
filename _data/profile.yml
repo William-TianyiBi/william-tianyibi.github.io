@@ -1,5 +1,5 @@
 primary_name: "Tianyi Bi"
-secondary_name: "\u6BD5\u5929\u4EEA"
+secondary_name: ""
 navbar_name: "Tianyi Bi"
 
 positions:
@@ -8,38 +8,38 @@ positions:
 
 email: "12311620@mail.sustech.edu.cn"
 cv_link: /assets/docs/cv/TIANYI_BI_CV_Robotics_RBCC.pdf
-github: lksjoif
+github: William-TianyiBi
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
     I am a Robotics undergraduate at Southern University of Science and Technology (SUSTech), Shenzhen, China
-    (B.Eng., expected June 2027), focusing on contact-rich manipulation, tactile intelligence, and mechanism-driven
+    (B.Eng., expected June 2027), working on contact-rich manipulation, tactile intelligence, and mechanism-driven
     robot design.
   </p>
   <p>
-    My work bridges learning and hardware: visuo-tactile policy training (UniVTAC), underactuated adaptive hand
+    My work bridges learning and hardware through visuo-tactile policy training (UniVTAC), underactuated adaptive hand
     synthesis (SPARK Hand), and multi-modal teleoperation interfaces (Tactile-UMI).
   </p>
   <p>
-    I was co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
+    I was a co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
     I aim to build robust embodied systems where principled mechanics and data-driven control reinforce each other.
   </p>
 
 personal_statement: >-
   <p>
     I believe the future of intelligent robotics lies at the intersection of physical structure and adaptive intelligence.
-    My training in robotics has taught me that strong performance in real-world manipulation is not achieved by algorithms
-    alone, but by the co-design of mechanism, sensing, and control.
+    Strong performance in real-world manipulation is not achieved by algorithms alone, but by the co-design of mechanism,
+    sensing, and control.
   </p>
   <p>
     Through SPARK Hand, UniVTAC, and Tactile-UMI, I have developed a research style that starts from task constraints,
     translates them into measurable design principles, and validates them in both simulation and prototype systems. This
     process has shaped my long-term goal: to contribute to embodied intelligence for dexterous and reliable manipulation
-    in unstructured environments, and to translate that research into practical robotic capability.
+    in unstructured environments and translate that research into practical robotic capability.
   </p>
 
-portrait_url: /Personal%20Profile/%E6%96%87%E4%BB%B6/%E8%AF%81%E4%BB%B6%E7%85%A7/Tianyi_Bi.jpg
+portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Tianyi Bi, Shenzhen, China.
 
@@ -51,30 +51,21 @@ education:
   date: Sep. 2023 - Present (Expected Jun. 2027)
 
 experience:
-- name: SUSTech
-  logo: /assets/images/badges/sustech_orange.png
-  location: Shenzhen, China
-  position: >-
-    Research Project: Manipulation with Visuo-Tactile Sensing (UniVTAC) <br/>
-    Built a phase-aware vision-tactile attention pipeline; achieved strong simulation validation for contact-rich tasks. <br/>
-    Advisor: Prof. Hong Zhang
-  date: Nov. 2025 - Apr. 2026
-- name: X-Institute, Tsinghua University
-  logo: /assets/images/badges/x_institute.png
-  location: Shenzhen, China
-  position: >-
-    SPARK Hand: Scooping-Pinching Adaptive Robotic Hand <br/>
-    Designed mechanism-constrained passive mode-switching hand and validated grasp performance under environmental constraints. <br/>
-    Advisor: Prof. Wenzeng Zhang
-  date: Oct. 2024 - May. 2025
 - name: HKUST(GZ)
   logo: /assets/images/badges/hkust_gz.png
   location: Guangzhou, China
-  position: >-
-    Tactile-UMI: Multi-Modal Handheld Tactile Gripper with Force Feedback <br/>
-    Integrated VR positioning, servo actuation, and tactile-visual feedback for teleoperation-oriented fine manipulation. <br/>
-    Advisor: Prof. Haoang Li
+  position: Visiting Research Student
   date: Apr. 2026 - Present
+- name: SUSTech
+  logo: /assets/images/badges/sustech_orange.png
+  location: Shenzhen, China
+  position: Undergraduate Research Student
+  date: Nov. 2025 - Apr. 2026
+- name: X-Institute, Tsinghua University
+  logo: /assets/images/badges/tsinghua_university.png
+  location: Shenzhen, China
+  position: Research Intern
+  date: Oct. 2024 - May. 2025
 
 competition_certificates:
 - name: 1st Place (Global Champion), ASME SMRDC Undergraduate Track

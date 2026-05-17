@@ -5,9 +5,51 @@ navbar_title: Home
 ---
 {% include widgets/profile_card.html %}
 
+<div class="my-4 p-3 p-md-4 bg-white shadow-sm rounded-xl">
+    <h4 class="mt-0 mb-3"><i class="fas fa-compass"></i> Research Focus</h4>
+    <p class="mb-3">
+        My research centers on contact-rich robotic manipulation with an emphasis on co-design across mechanism,
+        perception, and control. I focus on building systems that remain robust when uncertainty, compliance,
+        and environmental constraints are unavoidable.
+    </p>
+    <div class="row">
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <h6 class="mb-1">Visuo-Tactile Learning</h6>
+            <p class="small text-muted mb-0">
+                Phase-aware multi-modal policy learning for manipulation tasks where tactile feedback is critical.
+            </p>
+        </div>
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <h6 class="mb-1">Mechanism-Driven Dexterity</h6>
+            <p class="small text-muted mb-0">
+                Underactuated and adaptive hand designs that transfer structural intelligence to grasping behavior.
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <h6 class="mb-1">Human-in-the-Loop Interfaces</h6>
+            <p class="small text-muted mb-0">
+                Multi-modal teleoperation workflows combining vision, force, and tactile sensing for fine control.
+            </p>
+        </div>
+    </div>
+</div>
+
 {% if site.data.display.homepage.show_experience %}
     {% include widgets/experience_card.html %}
 {% endif %}
+
+<div class="my-3 p-3 bg-white shadow-sm rounded-xl">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-auto mb-2 mb-md-0 text-center">
+            <img class="rounded-sm border" style="width: 140px; max-width: 100%;" loading="lazy" decoding="async" src="{{ '/assets/images/etc/certificates_qr.png' | relative_url }}" alt="QR code for certificates page">
+        </div>
+        <div class="col-12 col-md">
+            <h6 class="mt-0 mb-1"><i class="fas fa-award"></i> Competition Certificates</h6>
+            <div class="small text-muted mb-2">Scan the QR code to open the certificates page.</div>
+            <a class="btn btn-primary btn-sm" href="{{ '/certificates' | relative_url }}">Open Certificates</a>
+        </div>
+    </div>
+</div>
 
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
@@ -29,19 +71,32 @@ navbar_title: Home
     <h4 class="mt-0 mb-3"><i class="fas fa-microscope"></i> Research Highlights</h4>
     <div class="row">
         <div class="col-12 col-md-4 mb-3">
-            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/univtac_framework.webp' | relative_url }}" alt="UniVTAC framework">
+            <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects/univtac_success.png' | relative_url }}" alt="UniVTAC framework">
+            <div class="mt-2 small text-muted">
+                UniVTAC: Phase-aware vision-tactile attention pipeline for contact-rich manipulation.
+            </div>
         </div>
         <div class="col-12 col-md-4 mb-3">
             <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/spark_hand_main.webp' | relative_url }}" alt="SPARK Hand">
+            <div class="mt-2 small text-muted">
+                SPARK Hand: Underactuated scooping-pinching adaptive design (IROS 2025).
+            </div>
         </div>
         <div class="col-12 col-md-4 mb-3">
             <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/projects_opt/tactile_umi_setup.webp' | relative_url }}" alt="Tactile UMI setup">
+            <div class="mt-2 small text-muted">
+                Tactile-UMI: Handheld multi-modal gripper with VR tracking and force feedback.
+            </div>
         </div>
+    </div>
+    <div class="d-flex flex-wrap mt-2">
+        <a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="{{ '/showcase' | relative_url }}">View Project Showcase</a>
+        <a class="btn btn-outline-primary btn-sm mb-2" href="{{ '/publications' | relative_url }}">View Publications</a>
     </div>
 </div>
 
 <div class="my-4 p-3 p-md-4 bg-white shadow-sm rounded-xl">
-    <h4 class="mt-0 mb-3"><i class="fas fa-images"></i> Self-Introduction Highlights</h4>
+    <h4 class="mt-0 mb-3"><i class="fas fa-images"></i> Highlights</h4>
     <div class="row">
         <div class="col-12 col-md-6 mb-3">
             <img class="img-fluid rounded-sm shadow-sm" loading="lazy" decoding="async" src="{{ '/assets/images/self_intro_opt/image1.webp' | relative_url }}" alt="Self introduction slide media 1">
@@ -59,14 +114,20 @@ navbar_title: Home
 </div>
 
 <div class="my-4 p-3 p-md-4 bg-white shadow-sm rounded-xl">
-    <h4 class="mt-0 mb-2"><i class="fas fa-award"></i> Competition Certificates</h4>
-    <p class="text-muted">Scan the QR code to open the certificates page on your phone.</p>
-    <div class="row align-items-center">
-        <div class="col-12 col-md-4 mb-3 mb-md-0">
-            <img class="img-fluid rounded-sm border" loading="lazy" decoding="async" src="{{ '/assets/images/etc/certificates_qr.png' | relative_url }}" alt="QR code for certificates page">
+    <h4 class="mt-0 mb-3"><i class="fas fa-bullseye"></i> Current Work and Open Collaboration</h4>
+    <div class="row">
+        <div class="col-12 col-lg-8 mb-2">
+            <ul class="mb-0">
+                <li>Extending visuo-tactile policy transfer from simulation to hardware deployment.</li>
+                <li>Studying morphology-policy coupling for reliable grasp mode transition.</li>
+                <li>Building compact teleoperation loops for fast iteration in dexterous tasks.</li>
+            </ul>
         </div>
-        <div class="col-12 col-md-8">
-            <a class="btn btn-primary" href="{{ '/certificates' | relative_url }}">Open Certificates Page</a>
+        <div class="col-12 col-lg-4">
+            <div class="small text-muted mb-2">I am open to collaboration in manipulation, tactile sensing, and mechanism-oriented robotic system design.</div>
+            <a class="btn btn-primary btn-sm" href="mailto:{{ site.data.profile.email | encode_email }}">Contact Me</a>
         </div>
     </div>
 </div>
+
+

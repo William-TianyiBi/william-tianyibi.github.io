@@ -2,6 +2,7 @@
 title:          "SPARK Hand: Scooping-Pinching Adaptive Robotic Hand with Kempe Mechanism for Vertical Passive Grasp in Environmental Constraints"
 date:           2025-08-01 00:01:00 +0800
 selected:       true
+cover:         /assets/images/projects/spark_hand_main.png
 pub:            "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)"
 pub_date:       "2025"
 abstract: >-
