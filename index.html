@@ -9,19 +9,6 @@ navbar_title: Home
     {% include widgets/experience_card.html %}
 {% endif %}
 
-<div class="my-3 p-3 bg-white shadow-sm rounded-xl">
-    <div class="row align-items-center">
-        <div class="col-12 col-md-auto mb-2 mb-md-0 text-center">
-            <img class="rounded-sm border" style="width: 90px; max-width: 100%;" loading="lazy" decoding="async" src="{{ '/assets/images/etc/certificates_qr.png' | relative_url }}" alt="QR code for certificates page">
-        </div>
-        <div class="col-12 col-md">
-            <h6 class="mt-0 mb-1"><i class="fas fa-award"></i> Competition Certificates</h6>
-            <div class="small text-muted mb-2">Scan the QR code to open the certificates page.</div>
-            <a class="btn btn-primary btn-sm" href="{{ '/certificates' | relative_url }}">Open Certificates</a>
-        </div>
-    </div>
-</div>
-
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
     {% if count_news > 0 %}
@@ -42,3 +29,4 @@ navbar_title: Home
     <h4 class="mt-0 mb-3"><i class="fas fa-leaf"></i> Life Beyond Robotics</h4>
     <a class="btn btn-outline-primary btn-sm" href="{{ '/life-beyond-robotics' | relative_url }}">View Life Beyond Robotics</a>
 </div>
+
