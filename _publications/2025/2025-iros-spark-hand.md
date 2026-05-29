@@ -5,7 +5,7 @@ selected:       true
 cover:          /assets/images/projects/spark_hand_main.png
 pub:            "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)"
 pub_date:       "2025"
-pub_last:       '<span class="badge badge-info">Conference</span>'
+pub_last:       '<span class="badge badge-info">Conference</span> <span class="badge badge-warning">CCF-C</span>'
 abstract: >-
   We propose SPARK Hand, an underactuated morphologically intelligent robotic hand that
   uses kinematic constraints to passively switch between pinching and scooping, enabling
