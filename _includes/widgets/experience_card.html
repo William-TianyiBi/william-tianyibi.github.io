@@ -59,29 +59,6 @@
                     </div>
                     {% endif %}
 
-                    {% if site.data.profile.competition_certificates %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>Competition Certificates</h6>
-                            <ul class="list small pl-3 mb-1">
-                                {% for item in site.data.profile.competition_certificates %}
-                                <li>
-                                    <div class="d-flex">
-                                        <div>
-                                            <div>{{ item.name }}</div>
-                                            {% if item.location %}
-                                            <div class="text-muted">{{ item.location }}</div>
-                                            {% endif %}
-                                        </div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
                 </div>
 
             </div>
