@@ -19,8 +19,9 @@ short_bio: >-
     robot design.
   </p>
   <p>
-    My work bridges learning and hardware through visuo-tactile policy training (UniVTAC), underactuated adaptive hand
-    synthesis (SPARK Hand), and multi-modal teleoperation interfaces (Tactile-UMI).
+    My current work spans tactile sensor development, vision-tactile-language-action (VTLA) models,
+    underactuated adaptive hand design with SPARK Hand, and UMI-style grippers that integrate tactile sensing
+    and force feedback.
   </p>
   <p>
     I was a co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
@@ -54,4 +55,3 @@ experience:
   location: Shenzhen, China
   position: Research Intern
   date: Oct. 2024 - May. 2025
-
