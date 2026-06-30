@@ -41,9 +41,11 @@ education:
 
 experience:
 - name: Axis Robotics
+  logo: /assets/images/badges/axis_robotics.svg
+  logo_height: 18px
   dept: Environment setup; simulation data collection and simulation environment development
   position: Robotics Simulation Intern
-  date: 2026 - Present
+  date: Apr. 2026 - Present
 - name: HKUST(GZ)
   logo: /assets/images/badges/hkust_logo_transparent.png
   location: Guangzhou, China
