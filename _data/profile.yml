@@ -40,12 +40,6 @@ education:
   date: Sep. 2023 - Present (Expected Jun. 2027)
 
 experience:
-- name: Axis Robotics
-  logo: /assets/images/badges/axis_robotics.svg
-  logo_height: 18px
-  dept: Environment setup; simulation data collection and simulation environment development
-  position: Robotics Simulation Intern
-  date: Apr. 2026 - Present
 - name: HKUST(GZ)
   logo: /assets/images/badges/hkust_logo_transparent.png
   location: Guangzhou, China
@@ -61,3 +55,11 @@ experience:
   location: Shenzhen, China
   position: Research Intern
   date: Oct. 2024 - May. 2025
+
+internships:
+- name: Axis Robotics
+  logo: /assets/images/badges/axis_robotics.svg
+  logo_height: 18px
+  dept: Environment setup; simulation data collection and simulation environment development
+  position: Robotics Simulation Intern
+  date: Apr. 2026 - Present
