@@ -5,6 +5,7 @@ navbar_name: "Tianyi Bi"
 positions:
 - name: B.Eng. Student in Robotics
 - name: Southern University of Science and Technology (SUSTech)
+- name: Embodied AI Algorithm Intern, WBI
 
 email: "12311620@mail.sustech.edu.cn"
 cv_link: /assets/docs/cv/TIANYI_BI_CV_Robotics_RBCC.pdf
@@ -15,18 +16,39 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am a Robotics undergraduate at Southern University of Science and Technology (SUSTech), Shenzhen, China
-    (B.Eng., expected June 2027), working on contact-rich manipulation, tactile intelligence, and mechanism-driven
-    robot design.
+    (B.Eng., expected June 2027). My work sits at the intersection of contact-rich manipulation, tactile
+    intelligence, embodied learning, and mechanism-driven robot design.
   </p>
   <p>
-    My current work spans tactile sensor development, vision-tactile-language-action (VTLA) models,
-    underactuated adaptive hand design with SPARK Hand, and UMI-style grippers that integrate tactile sensing
-    and force feedback.
+    I currently work on embodied AI at Whole-Body Intelligence (WBI), designing an AMASS-to-robot motion
+    retargeting pipeline and deploying reinforcement-learning policies with BeyondMimic and MJLab.
   </p>
   <p>
-    I was a co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
+    I am a co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
     I aim to build robust embodied systems where principled mechanics and data-driven control reinforce each other.
   </p>
+
+research_focus:
+- title: Contact-rich manipulation
+  icon: fas fa-hand
+  text: Tactile sensing, force feedback, and reliable manipulation under contact and geometric constraints.
+- title: Embodied learning
+  icon: fas fa-robot
+  text: Multimodal robot learning, human-to-robot motion retargeting, and policy deployment.
+- title: Mechanism-driven design
+  icon: fas fa-cogs
+  text: Underactuated hands and mechanically structured solutions for robust real-world interaction.
+
+projects:
+- title: SPARK Hand
+  subtitle: IROS 2025
+  image: /assets/images/projects/spark_hand_main.png
+  text: An underactuated adaptive hand using a Kempe mechanism to switch passively between pinching and scooping.
+  link: https://arrebolblack.github.io/spark-hand/
+- title: UniVTAC reproduction
+  subtitle: Visuo-tactile manipulation
+  image: /assets/images/projects/univtac_framework.png
+  text: Reproduction of a visuo-tactile manipulation framework in a dual parallel-gripper simulation environment.
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -40,6 +62,11 @@ education:
   date: Sep. 2023 - Present (Expected Jun. 2027)
 
 experience:
+- name: Whole-Body Intelligence (WBI)
+  location: Shenzhen, China
+  position: Embodied AI Algorithm Intern
+  date: Sep. 2026 - Present
+  dept: AMASS-to-robot motion retargeting pipeline; BeyondMimic and MJLab reinforcement-learning deployment.
 - name: HKUST(GZ)
   logo: /assets/images/badges/hkust_logo_transparent.png
   location: Guangzhou, China
@@ -55,11 +82,3 @@ experience:
   location: Shenzhen, China
   position: Research Intern
   date: Oct. 2024 - May. 2025
-
-internships:
-- name: Axis Robotics
-  logo: /assets/images/badges/axis_robotics.svg
-  logo_height: 18px
-  dept: Environment setup; simulation data collection and simulation environment development
-  position: Robotics Simulation Intern
-  date: Apr. 2026 - Present
