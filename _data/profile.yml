@@ -57,9 +57,8 @@ experience:
   date: Oct. 2024 - May. 2025
 
 internships:
-- name: Axis Robotics
-  logo: /assets/images/badges/axis_robotics.svg
-  logo_height: 18px
-  dept: Environment setup; simulation data collection and simulation environment development
-  position: Robotics Simulation Intern
-  date: Apr. 2026 - Present
+- name: Shenzhen Ola Dimensions Technology Co., Ltd.
+  location: Shenzhen, China
+  dept: Multimodal data pipelines and human-to-robot motion retargeting for home service robots.
+  position: Embodied AI Algorithm Intern
+  date: Aug. 2026 - Present
