@@ -14,6 +14,7 @@ authors:
 - Jiaqi Yin
 - Tianyi Bi
 - Wenzeng Zhang*
+project_link: https://arrebolblack.github.io/spark-hand/
 links:
   Paper: https://ieeexplore.ieee.org/document/11246150
   DOI: https://doi.org/10.1109/IROS60139.2025.11246150
