@@ -90,6 +90,18 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.news-card .media-body {
+    font-size: 0.9rem;
+}
+
+.news-card .media-body .ml-auto {
+    font-size: 0.85rem;
+}
+
+.news-card > .px-3 > .media > .mr-3 {
+    font-size: 0.9rem;
+}
+
 .life-photo-tile {
     height: 180px;
     width: 100%;
