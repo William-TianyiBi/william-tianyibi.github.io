@@ -11,7 +11,7 @@
                                 {% for item in site.data.profile.experience %}
                                 <li class="media mb-1">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px; height: 20px; object-fit: contain; flex: 0 0 20px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px; height: 20px; object-fit: contain; flex: 0 0 20px;{% if item.logo contains 'sustech_orange' %} transform: scale(1.2);{% endif %}" class="mr-1 mt-1">
                                     {% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
@@ -39,7 +39,7 @@
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px; height: 20px; object-fit: contain; flex: 0 0 20px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px; height: 20px; object-fit: contain; flex: 0 0 20px;{% if item.logo contains 'sustech_orange' %} transform: scale(1.2);{% endif %}" class="mr-1 mt-1">
                                     {% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
