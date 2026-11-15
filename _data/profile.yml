@@ -6,7 +6,7 @@ positions:
 - name: B.Eng. Student in Robotics
 - name: Southern University of Science and Technology (SUSTech)
 
-email: "12311620@mail.sustech.edu.cn"
+email: "bity2023@mail.sustech.edu.cn"
 cv_link: /assets/docs/cv/TIANYI_BI_CV_Robotics_RBCC.pdf
 github: William-TianyiBi
 gscholar: "https://scholar.google.com/citations?hl=zh-CN&user=StrcZkEAAAAJ&view_op=list_works&gmla=AIqSsVs_fGNdNigJDg0SWLglRBqJpo-vcuZqWug9n04NKiGcf6e0U6WTcTkUcSUf1Rj0WO97_T9ygUBW5SZzSKU6sAj8AdL9z8AfpdD4u6w"
@@ -14,18 +14,19 @@ gscholar: "https://scholar.google.com/citations?hl=zh-CN&user=StrcZkEAAAAJ&view_
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Robotics undergraduate at Southern University of Science and Technology (SUSTech), Shenzhen, China
-    (B.Eng., expected June 2027), working on contact-rich manipulation, tactile intelligence, and mechanism-driven
-    robot design.
+    I am a Robotics undergraduate at Southern University of Science and Technology (SUSTech),
+    Shenzhen, China (B.Eng., expected June 2027). My research interests include embodied AI,
+    robot manipulation, and learning-based control.
   </p>
   <p>
-    My current work spans tactile sensor development, vision-tactile-language-action (VTLA) models,
-    underactuated adaptive hand design with SPARK Hand, and UMI-style grippers that integrate tactile sensing
-    and force feedback.
+    My research experience includes UMI gripper teleoperation and demonstration collection for
+    robot policy training, visuo-tactile manipulation in simulation, and mechanism-driven hand
+    design through SPARK Hand. At Ola Dimensions, I work on GMR and RL pretraining for System 0
+    motion control and contribute to model evaluation.
   </p>
   <p>
-    I was a co-author of an IROS 2025 paper on SPARK Hand and a Global Champion (1st Place) in ASME SMRDC 2025.
-    I aim to build robust embodied systems where principled mechanics and data-driven control reinforce each other.
+    I co-authored an IROS 2025 paper on SPARK Hand and won first place in the undergraduate
+    track of the 2025 ASME Student Mechanism and Robot Design Competition.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg

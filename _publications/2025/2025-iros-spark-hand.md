@@ -13,7 +13,7 @@ abstract: >-
 authors:
 - Jiaqi Yin
 - Tianyi Bi
-- Wenzeng Zhang*
+- Wenzeng Zhang#
 project_link: https://arrebolblack.github.io/spark-hand/
 links:
   Paper: https://ieeexplore.ieee.org/document/11246150
