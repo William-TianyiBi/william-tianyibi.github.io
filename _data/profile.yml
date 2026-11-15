@@ -34,10 +34,10 @@ portrait_caption: >-
   Hello, I'm Tianyi
 
 education:
-- name: Southern University of Science and Technology (SUSTech)
+- name: SUSTech
   logo: /assets/images/badges/sustech_orange.png
   location: Shenzhen, China
-  position: Bachelor of Engineering in Robotics
+  position: B.Eng. in Robotics
   date: Sep. 2023 - Present (Expected Jun. 2027)
 
 experience:
